@@ -1,0 +1,524 @@
+.CampaignDetail {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #8cc4dd 0%, #0a7fb4 100%);
+  width: 100%;
+  padding-bottom: 2vh;
+}
+
+.CampaignDetail p {
+  margin: 0;
+}
+
+.CampaignDetail .header1 {
+  padding-top: 10%;
+  width: 90%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.CampaignDetail .header1 p.title {
+  font-weight: 500;
+  font-size: 1.5rem;
+  margin-bottom: 3vh;
+}
+
+.CampaignDetail .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 50vh;
+}
+
+.CampaignDetail .header .left {
+  width: 75%;
+  height: 100%;
+}
+
+.CampaignDetail .header .left img {
+  width: 100%;
+  height: 100%;
+}
+
+.CampaignDetail .header .right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 17%;
+  height: 100%;
+}
+
+.CampaignDetail .header .right .section {
+  display: flex;
+  width: 85%;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #daf3ff;
+  border-radius: 15px;
+  height: 43%;
+  padding: 5px;
+}
+
+.CampaignDetail .header .right .section .subSection {
+  height: 45%;
+  width: 100%;
+  background-color: #0b7fb4;
+  text-align: center;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.CampaignDetail .header .right .section p.para {
+  font-size: 2.25rem;
+  font-weight: 700;
+  color: #1b263b;
+  text-align: center;
+  margin-top: 7%;
+}
+
+.CampaignDetail .header .right .section .subSection p {
+  color: white;
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.CampaignDetail .mainContent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 90%;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-top: 4vh;
+}
+
+.CampaignDetail .mainContent .left {
+  width: 60%;
+}
+
+.CampaignDetail .mainContent .right {
+  width: 30%;
+  margin-top: 2.5vh;
+}
+
+.CampaignDetail .mainContent .right .fundBox p.fund {
+  font-size: 1.9rem;
+  font-weight: 700;
+  color: #1b263b;
+}
+
+.CampaignDetail .mainContent .left .section p.head {
+  color: #1b263b;
+  font-size: 1.9rem;
+  font-weight: 700;
+}
+
+.CampaignDetail .mainContent .left hr {
+  border: 1.9px solid rgba(0, 0, 0, 0.346);
+  margin: 0;
+}
+
+.CampaignDetail .mainContent .left .section .profileCard {
+  display: flex;
+  height: 7.75vh;
+  align-items: center;
+  width: max-content;
+  padding: 0.35rem;
+  margin-top: 2.5vh;
+  margin-bottom: 3vh;
+  background: #daf3ff;
+  border-radius: 50px;
+}
+
+.CampaignDetail .mainContent .left .section .profileCard .left {
+  height: 100%;
+  width: auto;
+}
+
+.CampaignDetail .mainContent .left .section .profileCard .right1 {
+  padding-left: 0.65rem;
+  padding-right: 0.75rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+
+.CampaignDetail .mainContent .left .section .profileCard p {
+  font-weight: 500;
+  color: #1b263b;
+  font-size: 1.025rem;
+}
+
+.CampaignDetail .mainContent .left .section .profileCard .left img {
+  height: 100%;
+  border-radius: 100%;
+  width: 100%;
+}
+
+.CampaignDetail .mainContent .left .section {
+  margin-top: 2.5vh;
+}
+
+.CampaignDetail .mainContent .left .section p.story {
+  color: #000000cf;
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-top: 2vh;
+  margin-bottom: 3vh;
+}
+
+.CampaignDetail .mainContent .left .section .profileCard .right2 {
+  background-color: #0a7fb4;
+  height: 100%;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
+.CampaignDetail .mainContent .left .section .profileCard .right2 p.amount {
+  color: white;
+}
+
+.CampaignDetail .mainContent .left .section .cards {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.CampaignDetail .mainContent .left .section .cards p.number {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #1b263b;
+  margin-right: 1rem;
+}
+
+.CampaignDetail .mainContent .left .section .cards .profileCard {
+  margin-bottom: 1vh;
+  margin-top: 1vh;
+}
+
+.CampaignDetail .mainContent .left .section p.donators {
+  color: #1b263b;
+  font-size: 1.9rem;
+  font-weight: 700;
+  margin-bottom: 2vh;
+}
+
+.CampaignDetail .mainContent .right .fundBox .box {
+  width: 100%;
+  border-radius: 15px;
+  background: #daf3ff;
+  margin-top: 2.5vh;
+}
+
+.CampaignDetail .mainContent .right .fundBox .box p.subhead {
+  color: #0d1b2a;
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.1rem;
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+}
+
+.CampaignDetail .mainContent .right .fundBox .box .subBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.CampaignDetail .mainContent .right .fundBox .box input {
+  background-color: #daf3ff;
+  border: 2px solid #1b263b;
+  border-radius: 10px;
+  width: 75%;
+  height: 5vh;
+  margin-bottom: 4vh;
+  font-size: 1.1rem;
+  padding-left: 0.5rem;
+}
+
+.CampaignDetail .mainContent .right .fundBox .box input::placeholder {
+  text-align: center;
+  color: #1b263b92;
+}
+
+.CampaignDetail .mainContent .right .fundBox .box button {
+  background: #1b263b;
+  border: none;
+  border-radius: 15px;
+  height: 7vh;
+  width: 50%;
+  color: white;
+  font-size: 1.1rem;
+  padding: 0.4rem 0.9rem;
+  cursor: pointer;
+}
+
+.CampaignDetail .mainContent .right .fundBox .box hr {
+  width: 85%;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  margin-top: 4vh;
+}
+
+.CampaignDetail .mainContent .right .fundBox .box .loader {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 85%;
+  padding-left: 7.5%;
+  padding-right: 7.5%;
+}
+
+.CampaignDetail .mainContent .right .fundBox .box .loader .loadBox {
+  width: 95%;
+  height: 2vh;
+  background-color: rgba(10, 127, 180, 0.39);
+  border-radius: 15px;
+  margin-top: 3vh;
+}
+
+.CampaignDetail .mainContent .right .fundBox .box .loader .loadBox .subLoadBox {
+  width: 30%;
+  background-color: #1b263bd2;
+  height: 100%;
+  border-radius: 15px;
+}
+
+.CampaignDetail .mainContent .right .fundBox .box .details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 95%;
+}
+
+.CampaignDetail .mainContent .right .fundBox .box .details .subDetails {
+  display: flex;
+  align-items: center;
+  margin-top: 0.5vh;
+  margin-bottom: 3.5vh;
+}
+
+.CampaignDetail
+  .mainContent
+  .right
+  .fundBox
+  .box
+  .details
+  .subDetails
+  p.subHead {
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: #0d1b2a;
+}
+
+.CampaignDetail
+  .mainContent
+  .right
+  .fundBox
+  .box
+  .details
+  .subDetails
+  p.primeLine {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: #0a7aae;
+  padding-left: 0.25rem;
+}
+
+.CampaignDetail .mainContent .right .category {
+  margin-top: 5vh;
+}
+
+.CampaignDetail .mainContent .right .category .box {
+  height: 7vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 8vh;
+}
+
+.CampaignDetail .mainContent .right .category .box p {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #0d1b2a;
+}
+
+.CampaignDetail .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.82);
+  backdrop-filter: blur(3px);
+  z-index: 15;
+  position: fixed;
+}
+
+.container {
+  position: absolute;
+  top: 45%;
+  left: 48%;
+  z-index: 1000;
+}
+
+.container .square {
+  width: 8px;
+  height: 30px;
+  background: rgb(71, 195, 248);
+  border-radius: 10px;
+  display: block;
+  /*margin:10px;*/
+  -webkit-animation: turn 2.5s ease infinite;
+  animation: turn 2.5s ease infinite;
+  box-shadow: rgb(71, 195, 248) 0px 1px 15px 0px;
+}
+
+.container .top {
+  position: absolute;
+  left: 40%;
+  top: 50%;
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.container .bottom {
+  position: absolute;
+  left: 40%;
+  top: 50%;
+  -webkit-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+}
+
+.container .left {
+  position: absolute;
+  left: 40%;
+  top: 50%;
+}
+
+.container .right {
+  position: absolute;
+  left: 40%;
+  top: 50%;
+  -webkit-transform: rotate(-180deg);
+  transform: rotate(-180deg);
+}
+
+@-webkit-keyframes turn {
+  0% {
+    transform: translateX(0) translateY(0) rotate(0);
+  }
+
+  50% {
+    transform: translateX(400%) translateY(100%) rotate(90deg);
+  }
+
+  100% {
+    transform: translateX(0) translateY(0) rotate(0);
+  }
+}
+
+@keyframes turn {
+  0% {
+    transform: translateX(0) translateY(0) rotate(0);
+  }
+
+  70% {
+    transform: translateX(400%) translateY(100%) rotate(90deg);
+  }
+
+  100% {
+    transform: translateX(0) translateY(0) rotate(0);
+  }
+}
+
+.CampaignDetail .loader9 {
+  color: rgb(255, 255, 255);
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 25px;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 40px;
+  padding: 10px 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 8px;
+  position: fixed;
+  z-index: 35;
+  position: fixed;
+  top: 48%;
+  left: 38%;
+}
+
+.CampaignDetail .words {
+  overflow: hidden;
+}
+
+.CampaignDetail .loader9 p {
+  position: relative;
+  top: 0;
+}
+
+.CampaignDetail .word {
+  display: block;
+  height: 100%;
+  padding-left: 6px;
+  color: rgb(0, 197, 0);
+  animation: spin_4991 4s infinite;
+}
+
+@keyframes spin_4991 {
+  10% {
+    -webkit-transform: translateY(-105%);
+    transform: translateY(-105%);
+  }
+
+  25% {
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+  }
+
+  35% {
+    -webkit-transform: translateY(-205%);
+    transform: translateY(-205%);
+  }
+
+  50% {
+    -webkit-transform: translateY(-200%);
+    transform: translateY(-200%);
+  }
+
+  60% {
+    -webkit-transform: translateY(-305%);
+    transform: translateY(-305%);
+  }
+
+  75% {
+    -webkit-transform: translateY(-300%);
+    transform: translateY(-300%);
+  }
+
+  85% {
+    -webkit-transform: translateY(-405%);
+    transform: translateY(-405%);
+  }
+
+  100% {
+    -webkit-transform: translateY(-400%);
+    transform: translateY(-400%);
+  }
+}

@@ -1,0 +1,131 @@
+.Campaigns {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #8cc4dd 0%, #0a7fb4 100%);
+  width: 100%;
+}
+
+.Campaigns .cards {
+  max-width: 90vw;
+  padding-left: 5%;
+  padding-right: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  padding-top: 20vh;
+  gap: 1.35vw; /* Add the desired spacing between cards */
+}
+
+@media (max-width: 768px) {
+  .Campaigns .cards {
+    justify-content: center;
+  }
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(3px);
+  z-index: 15;
+  position: fixed;
+}
+
+.container {
+  position: absolute;
+  top: 45%;
+  left: 48%;
+  z-index: 1000;
+}
+
+.container .square {
+  width: 8px;
+  height: 30px;
+  background: rgb(71, 195, 248);
+  border-radius: 10px;
+  display: block;
+  /*margin:10px;*/
+  -webkit-animation: turn 2.5s ease infinite;
+  animation: turn 2.5s ease infinite;
+  box-shadow: rgb(71, 195, 248) 0px 1px 15px 0px;
+}
+
+.container .top {
+  position: absolute;
+  left: 40%;
+  top: 50%;
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.container .bottom {
+  position: absolute;
+  left: 40%;
+  top: 50%;
+  -webkit-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+}
+
+.container .left {
+  position: absolute;
+  left: 40%;
+  top: 50%;
+}
+
+.container .right {
+  position: absolute;
+  left: 40%;
+  top: 50%;
+  -webkit-transform: rotate(-180deg);
+  transform: rotate(-180deg);
+}
+
+@-webkit-keyframes turn {
+  0% {
+    transform: translateX(0) translateY(0) rotate(0);
+  }
+
+  50% {
+    transform: translateX(400%) translateY(100%) rotate(90deg);
+  }
+
+  100% {
+    transform: translateX(0) translateY(0) rotate(0);
+  }
+}
+
+@keyframes turn {
+  0% {
+    transform: translateX(0) translateY(0) rotate(0);
+  }
+
+  70% {
+    transform: translateX(400%) translateY(100%) rotate(90deg);
+  }
+
+  100% {
+    transform: translateX(0) translateY(0) rotate(0);
+  }
+}
+
+.msg{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+p.connectWalletMsg{
+  text-align: center;
+  width: 60%;
+  color: rgb(255, 255, 255);
+  margin-top: 4rem;
+  padding: 1rem 0;
+  border: 2px solid white;
+  border-radius: 15px;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
