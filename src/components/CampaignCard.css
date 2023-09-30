@@ -1,0 +1,195 @@
+.CampaignCard {
+  width: 20vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0.5rem;
+  border-radius: 15px;
+  background-color: #ffffff;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+.CampaignCard p {
+  margin: 0;
+}
+
+.CampaignCard hr {
+  width: 90%;
+  background: rgba(0, 0, 0, 0.038);
+  border: 0.5px solid rgba(0, 0, 0, 0.146);
+  margin: 0;
+}
+
+.CampaignCard .CampaignImage {
+  width: 100%;
+  height: 20vh;
+}
+
+.CampaignCard .CampaignImage img {
+  width: 100%;
+  border-radius: 15px;
+  height: 100%;
+}
+
+.CampaignCard .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 90%;
+  height: 15vh;
+  text-align: left;
+  padding-top: 0.4rem;
+}
+
+.CampaignCard .text p.title {
+  font-weight: 648;
+  font-size: 1.1rem;
+}
+
+.CampaignCard .text p.description {
+  font-size: 1rem;
+  font-weight: 350;
+}
+
+.CampaignCard .tags {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  height: 7vh;
+  padding-bottom: 0.75rem;
+  padding-top: 1vh;
+}
+
+.CampaignCard .tags .profileCard {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #0a7fb4;
+  border-radius: 30px;
+  color: white;
+  height: 100%;
+  font-weight: 500;
+}
+
+.CampaignCard .tags .tag {
+  max-width: 40%;
+  min-width: 20%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  display: flex;
+  font-size: 1.1rem;
+  color: rgba(0, 0, 0, 0.812);
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  background-color: #d9d9d9;
+  font-weight: 500;
+  height: 80%;
+}
+
+.CampaignCard .tags .profileCard .left {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.CampaignCard .tags .profileCard .right {
+  width: 60%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: space-evenly;
+  font-size: small;
+}
+
+.CampaignCard .tags .profileCard .left img {
+  width: 75%;
+  height: 80%;
+  border-radius: 100%;
+}
+
+.CampaignCard .loader {
+  width: 90%;
+  height: 7vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.CampaignCard .loader .baseLoader {
+  height: 2vh;
+  background-color: #d9d9d9;
+  width: 100%;
+  border-radius: 20px;
+}
+
+.CampaignCard .loader .primeLoader {
+  height: 100%;
+  background-color: #0b7fb4;
+  width: 30%;
+  border-radius: 20px;
+}
+
+.CampaignCard .loader .Loadingdetails {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.7rem;
+}
+
+.CampaignCard .loader .Loadingdetails .line {
+  display: flex;
+  align-items: center;
+  max-width: 50%;
+  justify-content: space-evenly;
+  margin-top: 0.3rem;
+}
+
+.CampaignCard .loader .Loadingdetails .line p.baseline {
+  color: black;
+  font-weight: 500;
+}
+
+.CampaignCard .loader .Loadingdetails .line p.primeLine {
+  color: #0a7fb4;
+  font-weight: 500;
+  margin-left: 0.25rem;
+}
+
+.CampaignCard .footer {
+  width: 90%;
+  height: 6vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.CampaignCard .footer p.baseLine {
+  color: #415a77;
+  font-weight: 500;
+}
+
+.CampaignCard .footer p.primeLine {
+    color: #0b7fb4;
+    font-size: 0.9rem;
+}
+
+p.null{
+  margin: 0;
+  padding: 0;
+  width: 0;
+  height: 0;
+}
