@@ -1,0 +1,53 @@
+.Navbar {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  height: 3.5rem;
+  width: 90%;
+  background-color: #daf3ff;
+  margin-left: 5%;
+  margin-top: 3%;
+  border-radius: 20px;
+}
+
+.Navbar img {
+  height: 90%;
+  width: 18%;
+  margin-left: 1.5rem;
+}
+
+.Navbar .left {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.Navbar .right {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 1.6rem;
+}
+
+.Navbar .right p {
+  font-weight: 600;
+  font-size: 1.03125rem;
+  cursor: pointer;
+}
+
+.Navbar .right button {
+  border: none;
+  background-color: #0d1b2a;
+  color: #e0e1dd;
+  font-weight: 600;
+  font-size: 1.03125rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-radius: 15px;
+  cursor: pointer;
+}
