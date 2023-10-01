@@ -1,6 +1,7 @@
 # SparkAid
 
-![SparkAid Logo](path/to/logo.png)
+![logoSparkAid](https://github.com/xnki7/Spark-Aid/assets/92376931/323a91e3-c289-4280-8a36-79594b11156b)
+
 
 ## Table of Contents
 
