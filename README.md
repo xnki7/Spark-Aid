@@ -37,13 +37,13 @@ Welcome to SparkAid, a revolutionary platform dedicated to transforming the land
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/sparkaid.git
+   git clone https://github.com/rishii100/Spark-Aid.git
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd sparkaid
+   cd Spark-Aid
    ```
 
 3. Install dependencies:
@@ -69,13 +69,6 @@ SparkAid provides a decentralized solution for global fundraising, emphasizing t
 - **Blockchain Wallet:** A secure blockchain wallet for each user, ensuring transaction security.
 - **User-Friendly Dashboard:** Manage and track campaign progress effortlessly.
 
-## How to Use
-
-For detailed instructions on using SparkAid, refer to the [User Guide](docs/user-guide.md).
-
-## Contributing
-
-We welcome contributions! Follow our [Contribution Guidelines](CONTRIBUTING.md) to get started.
 
 ## License
 
