@@ -27,16 +27,12 @@ Welcome to SparkAid, a revolutionary platform dedicated to transforming the land
 
 ## Getting Started
 
-### Prerequisites
-
-- Node.js: [Download and Install Node.js](https://nodejs.org/)
-
 ### Installation
 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/rishii100/Spark-Aid.git
+   git clone https://github.com/xnki7/Spark-Aid.git
    ```
 
 2. Navigate to the project directory:
