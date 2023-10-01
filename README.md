@@ -10,8 +10,6 @@
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
 - [Platform Overview](#platform-overview)
-- [How to Use](#how-to-use)
-- [Contributing](#contributing)
 - [License](#license)
 
 ## Introduction
