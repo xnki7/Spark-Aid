@@ -6,6 +6,7 @@ import { contractAddress, contractAbi } from "./constant";
 import CampaignDetail from "./pages/CampaignDetail";
 import MyCampaigns from "./pages/MyCampaigns";
 import { ethers } from "ethers";
+import { publicProvider } from "wagmi/providers/public";
 import CreateProfileModal from "./components/CreateProfileModal";
 import HomePage from "./pages/HomePage";
 import Campaigns from "./pages/Campaigns";
@@ -23,25 +24,41 @@ function App() {
   }, []);
 
   async function loadBcData() {
-    if (window.ethereum) {
-      const provider = new ethers.providers.Web3Provider(
-        window.ethereum,
-        "any"
-      );
-      const signer = provider.getSigner();
-      setSigner(signer);
-      const contractInstance = new ethers.Contract(
-        contractAddress,
-        contractAbi,
-        signer
-      );
-      console.log(contractInstance);
-      setContract(contractInstance);
-      const address = await signer.getAddress();
-      console.log("Metamask Connected to " + address);
-      setAccount(address);
+    try {
+      if (window.ethereum) {
+        const provider = new ethers.providers.Web3Provider(window.ethereum);
+        const signer = provider.getSigner();
+        setSigner(signer);
+        const contractInstance = new ethers.Contract(
+          contractAddress,
+          contractAbi,
+          signer
+        );
+        console.log(contractInstance);
+        setContract(contractInstance);
+        const address = await signer.getAddress();
+        console.log("Metamask Connected to " + address);
+        setAccount(address);
+      } else {
+        const provider = new ethers.providers.Web3Provider(publicProvider);
+        const signer = provider.getSigner();
+        setSigner(signer);
+        const contractInstance = new ethers.Contract(
+          contractAddress,
+          contractAbi,
+          signer
+        );
+        console.log(contractInstance);
+        setContract(contractInstance);
+        const address = await signer.getAddress();
+        console.log("Public Provider Connected to " + address);
+        setAccount(address);
+      }
+    } catch (error) {
+      console.log(error);
     }
   }
+
 
   return (
     <div className="App">

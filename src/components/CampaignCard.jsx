@@ -17,7 +17,7 @@ function CampaignCard({
   const [profilePic, setProfilePic] = useState(null);
   const [raisedAmount, setRaisedAmount] = useState(null);
 
-  const getRaisedAmount = async() =>{
+  const getRaisedAmount = async () => {
     const tx = await contract.getRaisedAmount(campaignId);
     setRaisedAmount(tx);
   }
@@ -101,7 +101,7 @@ function CampaignCard({
           <div className="line">
             <p className="baseline">Progress :</p>
             <p className="primeLine">
-              {(raisedAmount / requiredAmount) * 100}%
+              {((raisedAmount / requiredAmount) * 100).toFixed(3)}%
             </p>
           </div>
         </div>

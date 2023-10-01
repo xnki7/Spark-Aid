@@ -58,10 +58,9 @@ function UploadCampaignForm({ contract, connected, account, accountName }) {
         formData,
         {
           headers: {
-            "Content-Type": "multipart/form-data",
-            pinata_api_key: "47cc152df3f25c7fa452",
+            pinata_api_key: "df3c9bf125f54ec2b198",
             pinata_secret_api_key:
-              "6e547f2be74a4b960a9c9fbf238a0580debe63047ca360d981898f8effe39d09",
+              "49d9f7f83b4ddd2be742eec456cefcbfc92b2601088f90594142def8f996a42a",
           },
         }
       );
@@ -77,9 +76,9 @@ function UploadCampaignForm({ contract, connected, account, accountName }) {
         campaignData,
         {
           headers: {
-            pinata_api_key: "47cc152df3f25c7fa452",
+            pinata_api_key: "df3c9bf125f54ec2b198",
             pinata_secret_api_key:
-              "6e547f2be74a4b960a9c9fbf238a0580debe63047ca360d981898f8effe39d09",
+              "49d9f7f83b4ddd2be742eec456cefcbfc92b2601088f90594142def8f996a42a",
           },
         }
       );
